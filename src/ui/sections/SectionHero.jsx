@@ -4,7 +4,7 @@ const SectionHero = () => {
     return (
         <section className="px-8 bg-gradient-to-br from-p1 to-p4">
             <div>
-                <h1 className="text-5xl py-10">
+                <h1 className="text-5xl py-12">
                     Des Huiles qui Nourrissent et Protègent votre Santé
                 </h1>
 
@@ -25,12 +25,10 @@ const SectionHero = () => {
                         antioydants, oméga 3 et 6
                     </li>
                     <li className="py-2">
-                        <CheckCircle className="inline" /> Pauvre en acides gras
-                        saturés
+                        <CheckCircle className="inline" /> Digestion facilitée
                     </li>
                     <li className="py-2">
-                        <CheckCircle className="inline" /> Digestion facilitée
-                        Goût plus subtile et doux
+                        <CheckCircle className="inline" /> Goût plus subtile et doux
                     </li>
                 </ul>
             </div>
