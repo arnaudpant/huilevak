@@ -15,7 +15,7 @@ const CardAvisClient = (card) => {
                 </div>
             </div>
 
-            <p className="text-sm font-serif text-center pb-6">{text}</p>
+            <p className="text-sm font-serif text-left pb-6">{text}</p>
         </div>
     );
 };

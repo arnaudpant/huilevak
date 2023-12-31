@@ -1,4 +1,5 @@
 import Header from '../ui/layout/Header';
+import SectionAlerte from '../ui/sections/SectionAlerte';
 import SectionAvisClients from '../ui/sections/SectionAvisClients';
 import SectionBenefices from '../ui/sections/SectionBenefices';
 import SectionHero from '../ui/sections/SectionHero';
@@ -16,6 +17,7 @@ const Home = () => {
             <SectionSpecificites />
             <SectionInfos />
             <SectionAvisClients />
+            <SectionAlerte />
         </>
     );
 };

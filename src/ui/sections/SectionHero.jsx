@@ -34,7 +34,7 @@ const SectionHero = () => {
                     </li>
                 </ul>
             </div>
-            <ButtonCommander />
+            <ButtonCommander title="COMMANDER NOS HUILES" />
             <div>
                 <p className="py-4 text-xm text-center">
                     Toutes nos huiles végétales sont issues de graines et
