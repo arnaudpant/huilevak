@@ -6,7 +6,7 @@ export default {
       primaire: '#A7AA23',
       secondaire: '#F7F7DA',
       action: '#4FE790',
-      bg: '#FEFEFC',
+      fond: '#FEFEFC',
       texte: '#131303',
       p1: '#FAFBEB',
       p2: '#F7F7DA',

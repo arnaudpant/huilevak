@@ -1,10 +1,11 @@
 import { CheckCircle } from 'lucide-react';
+import ButtonCommander from '../../components/ButtonCommander';
 
 const SectionHero = () => {
     return (
-        <section className="px-8 bg-gradient-to-br from-p1 to-p4">
+        <section className="px-8 py-12 bg-gradient-to-br from-p1 to-p4">
             <div>
-                <h1 className="text-5xl py-12">
+                <h1 className="text-5xl ">
                     Des Huiles qui Nourrissent et Protègent votre Santé
                 </h1>
 
@@ -32,11 +33,7 @@ const SectionHero = () => {
                     </li>
                 </ul>
             </div>
-            <div className="flex justify-center">
-                <button className="px-6 py-4 flex justify-center items-center bg-action text-4xl text-text rounded shadow-lg">
-                    COMMANDER NOS HUILES
-                </button>
-            </div>
+            <ButtonCommander />
             <div>
                 <p className="py-4 text-xm text-center">
                     Toutes nos huiles végétales sont issues de graines et
