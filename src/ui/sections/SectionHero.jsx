@@ -10,7 +10,7 @@ const SectionHero = () => {
                 </h1>
 
                 <h2 className="text-4xl py-6">
-                    Découvrez nos huiles végétales germées riches en nutriments
+                    Découvrez nos <span className='text-p11 font-semibold'>huiles végétales de graines germées</span>, riches en nutriments
                     essentiels, idéales pour une cuisine saine, éthique, et
                     responsable.
                 </h2>
