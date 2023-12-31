@@ -3,7 +3,7 @@ import ButtonCommander from '../../components/ButtonCommander';
 
 const SectionHero = () => {
     return (
-        <section className="px-8 py-12 bg-gradient-to-br from-p1 to-p4">
+        <section className="px-8 py-12 bg-hero bg-cover bg-left">
             <div>
                 <h1 className="text-5xl ">
                     Des Huiles qui Nourrissent et Protègent votre Santé
@@ -29,7 +29,8 @@ const SectionHero = () => {
                         <CheckCircle className="inline" /> Digestion facilitée
                     </li>
                     <li className="py-2">
-                        <CheckCircle className="inline" /> Goût plus subtile et doux
+                        <CheckCircle className="inline" /> Goût plus subtile et
+                        doux
                     </li>
                 </ul>
             </div>
