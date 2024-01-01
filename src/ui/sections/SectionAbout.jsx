@@ -26,7 +26,7 @@ const SectionAbout = () => {
                 <h3 className="text-xl">Présentation</h3>
                 <div className="text-md font-serif py-1">
                     <p>
-                        Huilesvak est une marque de produits créé et déposée en
+                        Huilesvak est une marque de produits créée et déposée en
                         2022.
                     </p>
                     <p>

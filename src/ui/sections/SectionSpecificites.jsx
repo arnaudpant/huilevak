@@ -8,7 +8,7 @@ const SectionSpecificites = () => {
     return (
         <section className="px-8 py-10 bg-p1">
             <h2 className="text-4xl text-center py-6">
-                Spécifités de nos huiles
+                Spécificités de nos huiles
             </h2>
 
             <div className="container mx-auto flex flex-col md:flex-row gap-10 justify-center items-start">
