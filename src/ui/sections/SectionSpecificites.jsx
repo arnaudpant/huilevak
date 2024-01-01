@@ -1,6 +1,8 @@
-import { ListSpecificitesGauche, ListSpecificitesDroite } from '../../Cards';
-import BoxSpecificites from "../../components/BoxSpecificites";
-
+import {
+    ListSpecificitesGauche,
+    ListSpecificitesDroite,
+} from '../../types/Cards';
+import BoxSpecificites from '../../components/BoxSpecificites';
 
 const SectionSpecificites = () => {
     return (
@@ -10,7 +12,6 @@ const SectionSpecificites = () => {
             </h2>
 
             <div className="container mx-auto flex flex-col md:flex-row gap-10 justify-center items-start">
-
                 <div className="flex flex-col gap-6">
                     {ListSpecificitesGauche.map((box, index) => (
                         <BoxSpecificites box={box} key={index} />
@@ -22,7 +23,6 @@ const SectionSpecificites = () => {
                         <BoxSpecificites box={box} key={index} />
                     ))}
                 </div>
-
             </div>
         </section>
     );

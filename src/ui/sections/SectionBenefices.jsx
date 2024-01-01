@@ -1,4 +1,4 @@
-import { ListCardsBenefices } from '../../Cards';
+import { ListCardsBenefices } from '../../types/Cards';
 import CardBenefice from '../../components/CardBenefice';
 
 const SectionBenefices = () => {

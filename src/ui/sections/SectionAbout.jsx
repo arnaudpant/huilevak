@@ -43,7 +43,10 @@ const SectionAbout = () => {
                     </p>
                 </div>
                 <div>
-                    <Link to={'/'} className="text-xl font-sans">
+                    <Link
+                        to={'/'}
+                        className="text-xl text-action drop-shadow-sm font-sans"
+                    >
                         En savoir plus ...
                     </Link>
                 </div>
