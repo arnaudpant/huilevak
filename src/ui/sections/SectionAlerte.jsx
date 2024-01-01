@@ -17,7 +17,9 @@ const SectionAlerte = () => {
             </p>
             <p className="pb-2 pt-10">
                 Profitez dès aujourd'hui de nos{' '}
-                <span className="text-action">offres exceptionnelles</span>{' '}
+                <span className="text-action drop-shadow-sm">
+                    offres exceptionnelles
+                </span>{' '}
                 avant l'épuisement total des stocks.
             </p>
             <p className="pb-10 pt-2">
