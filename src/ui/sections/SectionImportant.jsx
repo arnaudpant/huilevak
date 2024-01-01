@@ -1,17 +1,17 @@
 
 const SectionImportant = () => {
     return (
-        <section className="px-8 py-10 bg-p2">
-            <h2 className="text-4xl text-center py-6">Important !</h2>
+        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-p2">
+            <h2 className="text-4xl text-center pb-6 sm:pb-10">Important !</h2>
             <div className="container mx-auto text-lg">
                 <p>
                     Ce site n’est pas un site médical. Son objet est de produire
                     et promouvoir les huiles végétales extraites à froid 1ère
-                    pression, à partir de graines et oléagineux germés. <br />Tous les
-                    termes employés revoyant aux propriétés ou aux bienfaits
-                    sont extraits de la littérature scientifique. L’ensemble des
-                    informations y correspondant n’est fourni qu’à titre
-                    indicatif voir éducatif au regard de leur qualité
+                    pression, à partir de graines et oléagineux germés. <br />
+                    Tous les termes employés revoyant aux propriétés ou aux
+                    bienfaits sont extraits de la littérature scientifique.
+                    L’ensemble des informations y correspondant n’est fourni
+                    qu’à titre indicatif voir éducatif au regard de leur qualité
                     exceptionnelle comme produits naturels fabriqués dans la
                     pure tradition ancestrale.
                 </p>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const SectionAbout = () => {
     return (
-        <section className="flex flex-col flex-wrap md:flex-row w-full justify-center gap-8 px-8 py-10 bg-p1">
+        <section className="flex flex-col flex-wrap md:flex-row w-full justify-center gap-8 px-4 sm:px-8 py-6 sm:py-12 bg-p1">
             {/* Partie gauche */}
             <div className="flex flex-col gap-4 max-w-2xl">
                 {/* Avatar et Nom */}
@@ -23,7 +23,7 @@ const SectionAbout = () => {
                 </div>
                 {/* Titre et texte */}
 
-                <h3 className="text-xl">Présentation</h3>
+                <h3 className="text-2xl">Présentation</h3>
                 <div className="text-md font-serif py-1">
                     <p>
                         Huilesvak est une marque de produits créée et déposée en

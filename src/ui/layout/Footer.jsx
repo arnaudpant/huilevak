@@ -8,11 +8,11 @@ import { useNavigate } from 'react-router-dom';
 const Footer = () => {
     const navigate = useNavigate();
     return (
-        <footer className="bg-p10 text-fond py-8 px-4">
-            <h2 className="container mx-auto text-4xl pb-4">
+        <footer className="bg-p10 text-fond px-4 sm:px-8 py-6 sm:py-12">
+            <h2 className="container mx-auto text-4xl pb-6 sm:pb-10">
                 HuilesVak <span className="text-xl text-p6">Andji KAELE</span>
             </h2>
-            <div className="container mx-auto flex flex-col justify-between md:flex-row">
+            <div className="container mx-auto flex flex-col gap-4 justify-between md:flex-row">
                 {/* Gauche */}
                 <div>
                     <h3 className="text-2xl pb-2">A propos</h3>
