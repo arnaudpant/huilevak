@@ -6,7 +6,7 @@ import BoxSpecificites from '../../components/BoxSpecificites';
 
 const SectionSpecificites = () => {
     return (
-        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-p1">
+        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-fond">
             <h2 className="text-3xl sm:text-4xl text-center">
                 Spécificités de nos huiles
             </h2>

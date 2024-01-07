@@ -3,7 +3,7 @@ import { ChevronRight, Trees, Wheat } from 'lucide-react';
 
 const SectionProbleme = () => {
     return (
-        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-p1">
+        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-fond">
             <div className="container mx-auto">
                 <h2 className="text-3xl sm:text-4xl text-center">
                     Vous avez des difficultés à trouver des alternatives
@@ -48,7 +48,7 @@ const SectionProbleme = () => {
                     <div>
                         <Trees />
                     </div>
-                    <p className="font-serif">
+                    <p className="font-serif sm:text-xl">
                         Toutes nos huiles sont produites de manière écologique,
                         réduisant l'empreinte carbone en favorisant une
                         agriculture respectueuse de l'environnement.

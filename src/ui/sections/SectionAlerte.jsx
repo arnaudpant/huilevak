@@ -4,7 +4,7 @@ import ButtonCommander from "../../components/ButtonCommander";
 
 const SectionAlerte = () => {
     return (
-        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-p3 text-texte text-center text-3xl sm:text-4xl">
+        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-fond text-texte text-center text-3xl sm:text-4xl">
             <h2 className="text-center pb-6 sm:pb-10 underline">
                 ATTENTION ! STOCKS LIMITES
             </h2>

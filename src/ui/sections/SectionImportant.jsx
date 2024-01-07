@@ -1,7 +1,7 @@
 
 const SectionImportant = () => {
     return (
-        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-p2">
+        <section className="px-4 sm:px-8 py-6 sm:py-12 bg-fond">
             <h2 className="text-4xl text-center pb-6 sm:pb-10">Important !</h2>
             <div className="container mx-auto text-lg">
                 <p>
