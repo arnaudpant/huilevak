@@ -10,7 +10,7 @@ const SectionHero = () => {
 
                 <h2 className="text-4xl py-6">
                     Découvrez nos huiles végétales germées riches en nutriments
-                    essentiels, idéales pour une cuisine saine, éthique, et
+                    essentiels, idéales pour une alimentation saine, éthique, et
                     responsable.
                 </h2>
 
@@ -28,7 +28,7 @@ const SectionHero = () => {
                         <CheckCircle className="inline" /> Digestion facilitée
                     </li>
                     <li className="py-2">
-                        <CheckCircle className="inline" /> Goût plus subtile et doux
+                        <CheckCircle className="inline" /> Goût plus subtil et doux
                     </li>
                 </ul>
             </div>
